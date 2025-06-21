@@ -1,0 +1,74 @@
+body {
+  font-family: sans-serif;
+  background-image: url("aasd.png"); /* 🔄 Replace with your image path or URL */
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+    display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding-top: 150px; /* more top spacing */
+}
+
+.app {
+  background-color: rgba(255, 255, 255, 0.85); /* white with 85% opacity */
+  padding: 25px;
+  width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  
+  
+}
+
+
+h1 {
+  text-align: center;
+}
+
+.task-form input, .controls input {
+  margin: 8px 0;
+  padding: 10px;
+  width: calc(100% - 20px);
+  box-sizing: border-box;
+}
+
+button {
+  width: 95%;
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin: 6px 0;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li.done {
+  background: #d4ffd4;
+  text-decoration: line-through;
+  color: gray;
+}
+
+.stats {
+  margin-top: 20px;
+  font-weight: bold;
+}

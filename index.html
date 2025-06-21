@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>To-Do List Pro</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <h1>📝 To-Do List Pro</h1>
+
+    <div class="task-form">
+      <input type="text" id="taskInput" placeholder="Task name" />
+      <input type="datetime-local" id="dueInput" />
+      <button onclick="addTask()">Add</button>
+    </div>
+
+    <div class="controls">
+      <input type="text" id="searchInput" placeholder="Search tasks..." onkeyup="filterTasks()" />
+    </div>
+
+    <ul id="taskList"></ul>
+
+    <div class="stats" id="stats"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
